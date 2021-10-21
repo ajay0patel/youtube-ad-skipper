@@ -1,0 +1,14 @@
+{
+	"name":"Auto Skip",
+	"version":"0.0.1",
+	"manifest_version":2,
+	"content_scripts":[{
+		"js":["script.js"],
+		"run_at":"document_idle",
+		"matches":["*://www.youtube.com/*"]
+	}],
+	"permissions":[
+		"tabs",
+		"activeTab"
+	]
+}
