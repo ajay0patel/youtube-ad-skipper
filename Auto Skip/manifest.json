@@ -1,5 +1,5 @@
 {
-	"name":"Auto Skip",
+	"name":"Ad-Skipper",
 	"version":"0.0.1",
 	"manifest_version":2,
 	"content_scripts":[{
