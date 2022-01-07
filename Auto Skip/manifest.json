@@ -3,12 +3,15 @@
 	"version":"0.0.1",
 	"manifest_version":2,
 	"content_scripts":[{
-		"js":["script.js"],
-		"run_at":"document_idle",
-		"matches":["*://www.youtube.com/*"]
-	}],
+												"js":["script.js"],
+												"run_at":"document_idle",
+												"matches":["*://www.youtube.com/*"]
+											}],
 	"permissions":[
-		"tabs",
-		"activeTab"
-	]
+									"tabs",
+									"activeTab"
+								],
+	"icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }
 }
