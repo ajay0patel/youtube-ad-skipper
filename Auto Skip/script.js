@@ -1,5 +1,5 @@
 setInterval(function(){
-		let skip = document.getElementsByClassName("ytp-ad-skip-button");
+		let skip = document.getElementsByClassName("ytp-ad-skip-button-modern");
 		if(skip != undefined && skip.length > 0){
 			skip[0].click();
 		}
